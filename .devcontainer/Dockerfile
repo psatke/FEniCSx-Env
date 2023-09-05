@@ -18,6 +18,5 @@ RUN python3 -m pip install -U "setuptools<=65.5.1" pip pkgconfig
 RUN python3 -m pip install cython
 RUN python3 -m pip install --no-build-isolation --no-binary=h5py h5py
 
-ADD requirements.txt /tmp/requirements.txt
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 RUN python3 -m pip cache purge
