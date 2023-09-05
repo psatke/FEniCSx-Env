@@ -8,6 +8,12 @@
 	},
 	"customizations": {
 		"vscode": {
+			"settings": {
+				"jupyter.widgetScriptSources": [
+					"jsdelivr.com",
+					"unpkg.com"
+				]
+			},
 			"extensions": [
 				"ms-toolsai.jupyter",
 				"ms-toolsai.vscode-jupyter-cell-tags",
