@@ -12,7 +12,8 @@
 				"jupyter.widgetScriptSources": [
 					"jsdelivr.com",
 					"unpkg.com"
-				]
+				],
+				"notebook.lineNumbers": "on"
 			},
 			"extensions": [
 				"ms-toolsai.jupyter",
